@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Ride",
+    "slug": "Ride",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./Images/IconApp.png",
+    "splash": {
+      "image": "./Images/Ride.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "come.aditi.ride",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
